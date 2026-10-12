@@ -1,0 +1,26 @@
+{
+  "name": "tracebrain",
+  "displayName": "Tracebrain",
+  "version": "0.1.0",
+  "description": "Your second brain, built from your own conversations: the people you talk to, what was decided, and what you owe - readable and writable by your assistant.",
+  "author": {
+    "name": "Tracebrain",
+    "url": "https://tracebrain.app"
+  },
+  "homepage": "https://tracebrain.app/mcp",
+  "repository": "https://github.com/tracebrain/mcp",
+  "license": "MIT",
+  "keywords": ["memory", "notes", "crm", "productivity", "obsidian"],
+  "icon": "./icon.png",
+  "documentationUrl": "https://tracebrain.app/mcp",
+  "privacyPolicyUrl": "https://tracebrain.app/privacy",
+  "supportUrl": "https://tracebrain.app/privacy",
+  "userConfig": {
+    "remember_sessions": {
+      "type": "boolean",
+      "title": "Offer to remember what a session settled",
+      "description": "At the end of a session, ask whether anything durable about you or your work belongs on your own page. Off by default: it costs one model turn per session, and most sessions settle nothing worth keeping.",
+      "default": false
+    }
+  }
+}

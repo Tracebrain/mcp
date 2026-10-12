@@ -1,0 +1,14 @@
+{
+  "name": "tracebrain",
+  "owner": {
+    "name": "Tracebrain",
+    "url": "https://tracebrain.app"
+  },
+  "description": "Tracebrain: your second brain from your own conversations, in the assistant you already use.",
+  "plugins": [
+    {
+      "name": "tracebrain",
+      "source": "./"
+    }
+  ]
+}

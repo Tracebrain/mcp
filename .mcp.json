@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "tracebrain": {
+      "type": "http",
+      "url": "https://api.tracebrain.app/mcp"
+    }
+  }
+}
