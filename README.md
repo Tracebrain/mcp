@@ -50,12 +50,13 @@ whether anything durable about you or your work belongs on your own page.
 It is off by default because it costs a model turn per session and most
 sessions settle nothing worth keeping.
 
-The hook never writes anything. It cannot: a `Stop` hook is a shell command
-with no model behind it, so it can copy but not judge, and a coding session is
-full of `.env` contents and keys. It prints one constant question, reads
-nothing else, and makes no network call — [see the whole
-script](scripts/remember.sh). The model decides, and the server refuses a line
-that looks like a password, a key or a card number.
+The hook never writes anything. It cannot: a `Stop` hook is a command with no
+model behind it, so it can copy but not judge, and a coding session is full of
+`.env` contents and keys. It prints one constant question, reads nothing else,
+runs nothing else, and makes no network call — [see the whole
+script](scripts/remember.sh), which is the only thing the hook runs. The model
+decides, and the server refuses a line that looks like a password, a key or a
+card number.
 
 A hook is Claude Code's alone. In Cowork it loads; on claude.ai it is ignored.
 Everywhere else the `remember` skill does the same thing when you ask for it.
