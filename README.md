@@ -1,5 +1,7 @@
 # Tracebrain over MCP
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/tracebrain-mcp-14lwrc?v=0aac4ca7e0e33362945270e1dfcb0049)](https://m8ven.ai/mcp/tracebrain-mcp-14lwrc?s=readme)
+
 [Tracebrain](https://tracebrain.app) builds a memory from the conversations
 you already have. It reads your Telegram and WhatsApp through your own login
 and writes what it learns into a private vault of plain Markdown you own: a
